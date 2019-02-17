@@ -33,8 +33,8 @@ function get-psmWorldClock {
 
             $WorlClockJsonResult = Invoke-RestMethod -Method Get -UseBasicParsing -Uri $WebServiceApi
 
-            #return [datetime]::parseexact($WorlClockJsonResult.currentDateTime, 'yyyy-MM-ddTHH:mm+ss:ff', $null)
-            return $WorlClockJsonResult.currentDateTime
+            return [datetime]::parseexact($WorlClockJsonResult.currentDateTime, 'yyyy-MM-ddTHH:mm+ss:ff', $null)
+            #return $WorlClockJsonResult.currentDateTime
         }
         catch [System.Net.WebException] {
 

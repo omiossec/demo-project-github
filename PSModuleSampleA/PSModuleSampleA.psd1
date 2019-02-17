@@ -21,16 +21,16 @@ ModuleVersion = '0.0.1'
 GUID = '5db13452-1a68-4d31-991d-9d6179fabe4a'
 
 # Author of this module
-Author = 'fxavi'
+Author = 'Olivier Miossec'
 
 # Company or vendor of this module
-CompanyName = 'Unknown'
+CompanyName = 'FRPSUG'
 
 # Copyright statement for this module
-Copyright = '(c) 2019 fxavi. All rights reserved.'
+Copyright = '(c) 2019 omiossec. All rights reserved.'
 
 # Description of the functionality provided by this module
-# Description = ''
+Description = 'This module is part of a demo for the French PowerShell User Group'
 
 # Minimum version of the Windows PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -98,10 +98,10 @@ PrivateData = @{
         # Tags = @()
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://raw.githubusercontent.com/omiossec/demo-project-github/master/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/omiossec/demo-project-github'
 
         # A URL to an icon representing this module.
         # IconUri = ''
