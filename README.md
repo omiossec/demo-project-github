@@ -1,2 +1,6 @@
-# demo-project-github
-demo for FRPSUG Meetup
+# PSModuleSample
+
+PowerShell Module demo on Github
+
+
+
