@@ -101,7 +101,7 @@ PrivateData = @{
         LicenseUri = 'https://raw.githubusercontent.com/omiossec/demo-project-github/master/LICENSE'
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/omiossec/demo-project-github'
+        ProjectUri = 'https://dev.azure.com/AZ-FRPSUGDEMO/SimpleDemo/'
 
         # A URL to an icon representing this module.
         # IconUri = ''

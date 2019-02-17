@@ -32,7 +32,7 @@ function get-psmWorldClock {
         try {
 
             $WorlClockJsonResult = Invoke-RestMethod -Method Get -UseBasicParsing -Uri $WebServiceApi
-
+            #Change this
             return [datetime]::parseexact($WorlClockJsonResult.currentDateTime, 'yyyy-MM-ddTHH:mm+ss:ff', $null)
             #return $WorlClockJsonResult.currentDateTime
         }
