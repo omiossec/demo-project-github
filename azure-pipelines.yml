@@ -13,7 +13,7 @@ steps:
 - task: PowerShell@2
   displayName: BuildScript
   inputs:
-    targetType: ./
+    targetType: filePath
     filePath: '$(System.DefaultWorkingDirectory)\azdo-build.ps1'
 
 
