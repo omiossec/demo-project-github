@@ -5,6 +5,10 @@ trigger:
 pool:
   vmImage: VS2017-Win2016
 
+variables:
+  ModuleName: 'PSModuleSampleA'
+  ModuleVersion: '0.0.2'
+
 steps:
 - task: PowerShell@2
   displayName: BuildScript
